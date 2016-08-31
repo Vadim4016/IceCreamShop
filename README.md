@@ -4,7 +4,7 @@
 <p>I using the following technologies:</p>
 <ul>
   <li>front-end: Bootstrap, JQuery</li>
-  <li>server: local ISS 10 version</li>
+  <li>server: local IIS 10 version</li>
   <li>authenticate: AspNet Identity</li>
   <li>db: localDb, Entity Framework 6</li>
 </ul>
