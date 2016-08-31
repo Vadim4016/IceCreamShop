@@ -1,0 +1,19 @@
+﻿<nav class="pageHeaderMenu">
+    <ul class="pageHeaderList">
+        <li class="item">
+            <a class="itemLink @((string)ViewBag.NamePage == "Каталог"? "carrentPage":"") " href="@Url.Action("Index", "Catalog")">
+                Каталог
+            </a>
+        </li>
+        <li class="item">
+            <a class="itemLink @((string)ViewBag.NamePage == "Доставка и оплата"? "carrentPage":"")" href="@Url.Action("ShippinAndPayment", "Home")">
+                Доставка и оплата
+            </a>
+        </li>
+        <li class="item">
+            <a class="itemLink @((string)ViewBag.NamePage == "О Компании"? "carrentPage":"")" href="@Url.Action("AboutCompany", "Home")">
+                О Компании
+            </a>
+        </li>
+    </ul>
+</nav>

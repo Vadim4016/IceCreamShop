@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<section class="slider clearfix">
+    <div class="slide firstItem" id="slide1">
+        <h1 class="h1">Крем-брюле и пломбир с малиновым джемом</h1>
+        <a class="btn btnLarge btnPrimary" href="#">Давайте оба!</a>
+    </div>
+    <div class="slide secondItem" id="slide2">
+        <h1 class="h1">Шоколадный пломбир и лимонный сорбет</h1>
+        <a class="btn btnLarge btnPrimary" href="#">Давайте оба!</a>
+    </div>
+    <div class="slide thirdItem" id="slide3">
+        <h1 class="h1">Пломбир с помадкой и клубничный щербет</h1>
+        <a class="btn btnLarge btnPrimary" href="#">Давайте оба!</a>
+    </div>
+    <div class="sliderControls">
+        <label class="firstLabel" for="btn1"></label>
+        <label class="secondLabel" for="btn2"></label>
+        <label class="thirdLabel" for="btn3"></label>
+    </div>
+</section>
+
+<section class="bannerBlock clearfix">
+    <div class="bannerLeftBlock">
+        <h2 class="h2">
+            Малинка даром!
+        </h2>
+        <p>
+            При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
+        </p>
+        <a class="btn btnMedium btnPrimary leftBlock" href="#">
+            Хочу варенье!
+        </a>
+    </div>
+    <div class="bannerRightBlock">
+        <h2 class="h2">
+            Шоколадки даром!
+        </h2>
+        <p>
+            При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.
+        </p>
+        <a class="btn btnMedium btnPrimary rightBlock" href="#">
+            Хочу шоколадки!
+        </a>
+    </div>
+</section>
+
+<section class="productList clearfix">
+    @Html.Action("Hits", "Home")
+</section>
+
+<section class="advertisingBlock clearfix">
+    <h3 class="h3">
+        Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на
+        развес
+    </h3>
+    <div class="advertisingContainer">
+        <p class="advertItem iceIco">
+            Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
+        </p>
+        <p class="advertItem cowIco">
+            Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
+        </p>
+        <p class="advertItem leafIco">
+            Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.
+        </p>
+        <p class="advertItem thermIco">
+            Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.
+        </p>
+    </div>
+</section>
+
+<section class="newsBlock clearfix">
+    <div class="newsBlockLeft">
+        <p>Новое в нашем блоге</p>
+        <h4 class="h4">
+            <a href="#">
+                10 способов сервировки<br> фруктовых щербетов<br> к столу
+            </a>
+        </h4>
+    </div>
+    <div class="newsBlockRight">
+        <div class="newsSubstrate">
+            <p>
+                Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
+                Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)
+            </p>
+            <form class="subscribeForm" action="post.html" name="subscribeForm" method="post" enctype="multipart/form-data">
+                <input class="inputText" type="email" placeholder="Электронная почта">
+                <span class="fakePlaceholder none">Электронная почта</span>
+                <button class="btn btnPrimary btnMedium" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>

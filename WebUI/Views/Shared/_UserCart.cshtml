@@ -1,0 +1,16 @@
+﻿@using Domain.Model
+
+
+<a class="btn btnDefault btnSmall" href="@Url.Action("Index", "Cart")">
+    @if ((int)ViewBag.ItemInCart != 0)
+    {
+        <i class="ico icoFullBasket"></i>
+        <span class="enterBasket">@ViewBag.ItemInCart товара</span>
+    }
+    else
+    {
+        <i class="ico icoEmptyBasket"></i>
+        <span class="enterBasket">Пусто</span>
+    }
+</a>
+

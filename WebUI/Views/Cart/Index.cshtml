@@ -1,0 +1,52 @@
+﻿@model WebUI.Models.CartViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Корзина покупок</h2>
+<br/>
+<br />
+<table class="table-cart">
+        <thead>
+        <tr>
+            <th>Наименование</th>
+            <th>Количество</th>
+            <th>Цена</th>
+            <th>Итого</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.Cart.Items)
+        {
+            <tr>
+                <td>@item.IceCream.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.IceCream.Price.ToString("# руб.")</td>
+                <td>@((item.Quantity*item.IceCream.Price).ToString("# руб."))</td>
+                <td>@Html.ActionLink("Удалить", "RemoveFromCart", new { iceCreamId = item.IceCream.Id})</td>
+            </tr>
+        }
+        </tbody>
+        <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Итого:</td>
+            <td>@Model.Cart.ComputeTotalValue().ToString("# руб.")</td>
+        </tr>
+        </tfoot>
+    </table>
+
+
+<div class="cart_user_select">
+    <a class="btn btnDefault " href="@Url.Action("Index", "Catalog")">Продолжить покупки</a>
+    <a class="btn btnDefault " href="@Url.Action("ClearCart")">Отчистить корзину</a>
+    <a class="btn btnDefault " href="#">Оформить заказ</a>
+</div>
+
+
+
+

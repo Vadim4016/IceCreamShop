@@ -1,0 +1,33 @@
+﻿@using Domain.Model
+@model WebUI.Models.CatalogViewModel
+
+
+    @foreach (IceCream item in Model.IceCreams)
+    {
+        <article class="productItem catalogPage">
+            @if (item.Image != null)
+                {
+                <img class="productItemImg" src="@Url.Action("GetImage", "Home", new {id = item.Id})" alt="@item.Name" width="267" height="267">
+            }
+            else
+            {
+                <img class="productItemImg" src="~/Content/img/basePhoto.jpg" alt="@item.Name" width="267" height="267">
+            }
+            <span class="productItemPrice">
+                <span class="productPrice">@item.Price</span>
+                <span class="productRubleIco"></span>
+                <span class="productWeight">/кг</span>
+            </span>
+            <h4 class="h4">
+                <a class="productTitle" href="#">
+                    @item.Name
+                </a>
+            </h4>
+            <a class="btn btnMedium btnPrimary none" href="@Url.Action("AddToCart", "Cart", new {iceCreamId = item.Id})">Добавить в козину</a>
+            <div class="hoverBlock none"></div>
+        </article>
+    }
+
+@{
+    Html.RenderPartial("_Pagination");
+}

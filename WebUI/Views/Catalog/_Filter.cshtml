@@ -1,0 +1,87 @@
+﻿@model WebUI.Models.FilterViewModel
+
+    @using (Ajax.BeginForm("CatalogProducts", new { }, new AjaxOptions { UpdateTargetId = "catalog" }, new { @class = "filterForm" }))
+    {
+        <fieldset class="filterGroup sortItem">
+            <legend>Сортировка:</legend>
+            <select class="groupContentSort" name="OrderSortCost">
+                <option value="" selected="">без сортировки</option>
+                <option value="Up">сначала недорогие</option>
+                <option value="Down">сначала дорогие</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="filterGroup fatnessItem">
+            <legend>Жирность:</legend>
+            <div class="filterGroupContent">
+                <input class="none" id="per0" type="radio" name="fat" value="100" hidden="" checked="">
+                <label class="radio" for="per0">
+                    <span class="radioItem">
+                        <span class="innerRadio"></span>
+                    </span>не имеет значения
+                </label>
+                <input class="none" id="per5" type="radio" name="fat" value="5" hidden="">
+                <label class="radio" for="per5">
+                    <span class="radioItem">
+                        <span class="innerRadio"></span>
+                    </span>до 5%
+                </label>
+                <input class="none" id="per10" type="radio" name="fat" value="10" hidden="">
+                <label class="radio checked" for="per10">
+                    <span class="radioItem">
+                        <span class="innerRadio"></span>
+                    </span>до 10%
+                </label>
+                <input class="none" id="per30" type="radio" name="fat" value="20" hidden="">
+                <label class="radio" for="per30">
+                    <span class="radioItem">
+                        <span class="innerRadio"></span>
+                    </span>до 20%
+                </label>
+                <input class="none" id="over30" type="radio" name="fat" value="30" hidden="">
+                <label class="radio" for="over30">
+                    <span class="radioItem">
+                        <span class="innerRadio"></span>
+                    </span>до 30%
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="filterGroup fillerItem">
+            <legend>Наполнители:</legend>
+            <div class="filterGroupContent">
+                <input class="none" id="choco" type="checkbox" name="Filler.Сhocolate" value="true" hidden="">
+                <label class="checkbox checked" for="choco">
+                    <span class="checkboxItem">
+                        <span class="innerCheckbox"></span>
+                    </span>шоколадные
+                </label>
+                <input class="none" id="sugar" type="checkbox" name="Filler.SugarPowder" value="true" hidden="">
+                <label class="checkbox checked" for="sugar">
+                    <span class="checkboxItem">
+                        <span class="innerCheckbox"></span>
+                    </span>сахарные присыпки
+                </label>
+                <input class="none" id="fruit" type="checkbox" name="Filler.Fruit" value="true" hidden="">
+                <label class="checkbox" for="fruit">
+                    <span class="checkboxItem">
+                        <span class="innerCheckbox"></span>
+                    </span>фрукты
+                </label>
+                <input class="none" id="syrup" type="checkbox" name="fFiller.Syrups" value="true" hidden="">
+                <label class="checkbox" for="syrup">
+                    <span class="checkboxItem">
+                        <span class="innerCheckbox"></span>
+                    </span>сиропы
+                </label>
+                <input class="none" id="jams" type="checkbox" name="Filler.Jams" value="true" hidden="">
+                <label class="checkbox" for="jams">
+                    <span class="checkboxItem">
+                        <span class="innerCheckbox"></span>
+                    </span>джемы
+                </label>
+            </div>
+        </fieldset>
+
+        <button class="btn btnDefault btnSmall btnBordered" type="submit">Применить</button>
+    }

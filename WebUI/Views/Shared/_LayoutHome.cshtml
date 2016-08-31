@@ -1,0 +1,150 @@
+﻿@using Domain.Model
+@using WebUI.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    @Styles.Render("~/Content/CSS")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    
+<input class="firstBtn" type="radio" id="btn1" name="toggle" checked="">
+<input class="secondBtn" type="radio" id="btn2" name="toggle">
+<input class="thirdBtn" type="radio" id="btn3" name="toggle">
+
+<div class="siteWrapper ">
+
+    <header class="pageHeader">
+        <div class="container">
+            <a href="@Url.Action("Index", "Home")"><img class="logoImg" src="~/Content/img/logo.svg" alt="GllacyShop" width="160" height="65"></a>
+            <nav class="pageHeaderMenu">
+                <ul class="pageHeaderList">
+                    <li class="item">
+                        <a class="itemLink" href="@Url.Action("Index", "Catalog")">
+                            Каталог
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="itemLink" href="@Url.Action("ShippinAndPayment", "Home")">
+                            Доставка и оплата
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="itemLink" href="@Url.Action("AboutCompany", "Home")">
+                            О Компании
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="searchBlock"></div>
+
+            <div class="user">
+                <div class="userEnter">
+                    <a class="enterLink btn btnDefault btnSmall" href="@Url.Action("Login", "Account")">
+                        <i class="icoEnter"></i>
+                        <span class="enterTitle">Вход
+                            </span>
+                    </a>
+                </div>
+                <div class="userBasket">
+                    @{
+                        Html.RenderAction("UserCart", "Home");
+                    }
+                </div>
+                <span class="userTime">C 10 до 20, ежедневно</span>
+                <a class="userPhone" href="tel:88124502525">8&nbsp;812&nbsp;450-25-25</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="mainContent">
+        <div class="container">
+            @RenderBody()
+        </div>
+        <section class="mapBlock clearfix">
+            <div class="iMap">
+                <iframe height="430" frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?q=%D1%83%D0%BB.%20%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2015%2C%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%2C%20%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D1%80%D0%B0%D0%B9%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&key=AIzaSyBYQWWmVuAsVD8R_ZaFZ6dLvQyRO3L4c2E" allowfullscreen></iframe>
+            </div>
+            <div class="mapBlockContainer">
+                <div class="adressBlock">
+                    <div class="adressContainer">
+                        <p>
+                            Адрес главного офиса и<br>офлайн магазина:
+                        </p>
+                        <p class="adressGeneral">
+                            <strong>ул. Светланская 15<br>г. Владивосток</strong>
+                        </p>
+                        <p class="adressPhone">
+                            <span>Для заказов по телефону:</span><br>
+                            <strong><a href="tel:88124502525">8&nbsp;812&nbsp;450-25-25</a></strong><br>
+                            <span>(с 10 до 20 ежедневно)</span>
+                        </p>
+                    </div>
+                    <a href="#" class="btn btnPrimary btnMedium">Форма обратной связи</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="pageFooter">
+        <div class="container">
+            <div class="pageFooterSocial">
+                <ul class="socialMenu">
+                    <li class="socialItem">
+                        <a class="linkTwitter" href="https://twitter.com"></a>
+                    </li>
+                    <li class="socialItem">
+                        <a class="linkInstagram" href="https://www.instagram.com"></a>
+                    </li>
+                    <li class="socialItem">
+                        <a class="linkFacebook" href="https://www.facebook.com"></a>
+                    </li>
+                    <li class="socialItem">
+                        <a class="linkVkontakte" href="https://vk.com"></a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="pageFooterNav">
+                <ul class="pageFooterMenu">
+                    <li class="footerMenuItem">
+                        <a class="heartIco" href="@Url.Action("ForSuppliers", "Home")">Для поставщиков</a>
+                    </li>
+                    <li class="footerMenuItem">
+                        <a href="@Url.Action("OurDocuments", "Home")">Наши документы</a>
+                    </li>
+                    <li class="footerMenuItem">
+                        <a href="@Url.Action("AboutTehnology", "Home")">О производстве </a>
+                    </li>
+                    <li class="footerMenuItem">
+                        <a href="@Url.Action("EcologicalyStandarts", "Home")">Экологические стандарты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <div class="popupForm none">
+        <form class="popupFeedbackForm" action="#" name="feedbackForm" method="post" enctype="multipart/form-data">
+            <b>Мы обязательно вам ответим!</b>
+            <a class="closeIco" href="#"></a>
+            <input class="inputText" id="nameInput" type="text" placeholder="Как вас зовут?">
+            <span class="fakePlaceholder fakeName none">Как вас зовут?</span>
+            <input class="inputText" id="emailInput" type="email" placeholder="Ваша почта для ответа?">
+            <span class="fakePlaceholder fakeEmail none">Ваша почта для ответа?</span>
+            <textarea class="inputArea inputText" id="feedbackInput" name="feedback" cols="51" rows="7" placeholder="Напишите что-нибудь..."></textarea>
+            <span class="fakePlaceholder fakeFeedBack none">Напишите что-нибудь...</span>
+            <button type="submit" class="btn btnPrimary btnMedium">Отправить</button>
+        </form>
+    </div>
+    <div class="backPopup none"></div>
+</div>
+
+@Scripts.Render("~/Content/JS")
+@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿@model Domain.Model.IceCream
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminPanel.cshtml";
+}
+
+<h3>Вы действительно хотите удалить запись?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fat)
+        </dd>
+
+        <dt>
+            Изображение
+        </dt>
+
+        <dd>
+            @if (Model.Image != null)
+            {
+                <img src="@Url.Action("GetImage", "Home", new {Model.Id})"/>
+            }
+            else
+            {
+                <p>Изображение отсутствует</p>
+            }
+        </dd>
+
+        @if (Model.Hit == true)
+        {
+            <dt>
+                
+            </dt>
+
+            <dd>
+                <h4>Товар является хитом продаж!</h4>
+            </dd>
+        }
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Вернуться на главную", "Index", new { }, new { @class = "btn btn-success" })
+            <input type="submit" value="Удалить" class="btn btn-default"/>
+        </div>
+    }
+</div>

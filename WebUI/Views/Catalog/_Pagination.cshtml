@@ -1,0 +1,43 @@
+﻿@using WebUI.Models
+@model WebUI.Models.CatalogViewModel
+
+<nav>
+    <ul class="pagination">
+        <li class="paginItem">
+            <span class="leftArrow @(Model.pageInfoModel.CarrentPage == 1 ? "active" : "" )"></span>
+        </li>
+
+        @for (int i = 1; i < Model.pageInfoModel.TotalPage + 1; i++)
+        {
+            if (i == Model.pageInfoModel.CarrentPage)
+            {
+                <li class="paginItem active">
+                    <span>@i</span>
+                </li>
+            }
+            else
+            {
+                // TODO придумать лучшее решение для передачи параметров фильтра в контроллер
+                <li class="paginItem">
+                    @Ajax.ActionLink(i.ToString(), "CatalogProducts", new
+                    {
+                        page = i,
+                        Model.filterModel.OrderSortCost,
+                        Model.filterModel.Fat,
+                        Model.filterModel.Filler?.Сhocolate,
+                        Model.filterModel.Filler?.Fruit,
+                        Model.filterModel.Filler?.Jams,
+                        Model.filterModel.Filler?.SugarPowder,
+                        Model.filterModel.Filler?.Syrups
+                    }, new AjaxOptions {UpdateTargetId = "catalog"})
+                </li>
+            }
+        }
+
+        <li class="paginItem">
+            <a href="#">
+                <span class="rightArrow @(Model.pageInfoModel.CarrentPage == Model.pageInfoModel.TotalPage ? "" : "active" )"></span>
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,18 @@
+﻿@using Domain.Model
+@model List<Domain.Model.IceCream>
+
+@foreach (IceCream item in Model)
+{
+    <article class="productItem hitList">
+        <span class="productItemHitmark"></span>
+        <img class="productItemImg hitList" src="@Url.Action("GetImage", "Home", new {item.Id})" alt="@item.Name" width="267" height="267">
+        <span class="productItemPrice">
+            <span class="productPrice hitList">@item.Price</span>
+            <span class="productRubleIco hitList"></span>
+            <span class="productWeight hitList">/кг</span>
+        </span>
+        <h4 class="h4">
+            @item.Name
+        </h4>
+    </article>
+}

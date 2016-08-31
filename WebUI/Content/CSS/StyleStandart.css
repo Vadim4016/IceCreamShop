@@ -1,0 +1,33 @@
+﻿.btnStandart {
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: rgba(248, 247, 244, 0.2);
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+.btnStandart:hover {
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.textBoxStandart {
+    width: 480px; 
+}
+
+.formGroupStandart {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.checkBoxStandart {
+    width: 20px;
+    height: 20px;
+}
+

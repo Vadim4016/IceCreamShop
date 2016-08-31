@@ -1,0 +1,94 @@
+﻿@using Domain.Model
+@using WebUI.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    @Styles.Render("~/Content/CSS")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+<div class="siteWrapper backDefault">
+
+    <header class="pageHeader">
+        <div class="container">
+            <a href="@Url.Action("Index", "Home")"><img class="logoImg" src="~/Content/img/logo.svg" alt="GllacyShop" width="160" height="65"></a>
+            @{
+                Html.RenderPartial("_Menu");
+            }
+
+            <div class="searchBlock"></div>
+
+            <div class="user">
+                <div class="userEnter">
+                    <a class="enterLink btn btnDefault btnSmall" href="@Url.Action("Login", "Account")">
+                        <i class="icoEnter"></i>
+                        <span class="enterTitle">Вход
+                            </span>
+                    </a>
+                </div>
+                <div class="userBasket">
+                    @{
+                        Html.RenderAction("UserCart", "Home");
+                    }
+                </div>
+                <span class="userTime">C 10 до 20, ежедневно</span>
+                <a class="userPhone" href="tel:88124502525">8&nbsp;812&nbsp;450-25-25</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="mainContent">
+        <div class="container">
+            @RenderBody()
+        </div>
+    </div>
+
+    <footer class="pageFooter">
+        <div class="container">
+            <div class="pageFooterSocial">
+                <ul class="socialMenu">
+                    <li class="socialItem">
+                        <a class="linkTwitter" href="https://twitter.com"></a>
+                    </li>
+                    <li class="socialItem">
+                        <a class="linkInstagram" href="https://www.instagram.com"></a>
+                    </li>
+                    <li class="socialItem">
+                        <a class="linkFacebook" href="https://www.facebook.com"></a>
+                    </li>
+                    <li class="socialItem">
+                        <a class="linkVkontakte" href="https://vk.com"></a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="pageFooterNav">
+                <ul class="pageFooterMenu">
+                    <li class="footerMenuItem">
+                        <a class="heartIco" href="@Url.Action("ForSuppliers", "Home")">Для поставщиков</a>
+                    </li>
+                    <li class="footerMenuItem">
+                        <a href="@Url.Action("OurDocuments", "Home")">Наши документы</a>
+                    </li>
+                    <li class="footerMenuItem">
+                        <a href="@Url.Action("AboutTehnology", "Home")">О производстве </a>
+                    </li>
+                    <li class="footerMenuItem">
+                        <a href="@Url.Action("EcologicalyStandarts", "Home")">Экологические стандарты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</div>
+
+@Scripts.Render("~/Content/JS")
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,12 @@
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\Domain.dll.config
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\Domain.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\Domain.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\EntityFramework.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\EntityFramework.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\ru\EntityFramework.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\obj\Debug\Domain.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\Domain\obj\Debug\Domain.pdb

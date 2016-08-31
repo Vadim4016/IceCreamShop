@@ -1,0 +1,25 @@
+﻿@using Domain.Model
+@model WebUI.Models.CatalogViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="h2 catalogPage clearfix">Каталог мороженого</h1>
+
+<section class="filterBlock clearfix">
+    @{
+        Html.RenderPartial("_Filter");
+    }
+</section>
+
+<section class="productList catalogPage clearfix">
+    <div id="catalog">
+        @{
+            Html.RenderAction("CatalogProducts");
+        }
+    </div>
+</section>
+
+<hr class="bigHR">

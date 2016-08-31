@@ -1,0 +1,194 @@
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\csc.exe
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\vbc.exe
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\VBCSCompiler.exe
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\WebUI.dll.config
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\WebUI.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\WebUI.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Antlr3.Runtime.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Domain.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\EntityFramework.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\EntityFramework.SqlServer.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Google.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Newtonsoft.Json.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Owin.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Helpers.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Mvc.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Optimization.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Razor.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.WebPages.Deployment.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.WebPages.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.WebPages.Razor.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\WebGrease.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Domain.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Helpers.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Mvc.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Optimization.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.Razor.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.WebPages.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.WebPages.Deployment.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\System.Web.WebPages.Razor.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Antlr3.Runtime.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Newtonsoft.Json.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\EntityFramework.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\EntityFramework.SqlServer.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Google.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.Helpers.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.Mvc.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.Optimization.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.Razor.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.WebPages.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\EntityFramework.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\EntityFramework.SqlServer.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\obj\Debug\WebUI.dll
+c:\users\vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\obj\Debug\WebUI.pdb
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Ninject.dll
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Ninject.Web.Common.dll
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Ninject.Web.Mvc.dll
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\WebActivatorEx.dll
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Ninject.xml
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Ninject.Web.Common.xml
+C:\Users\Vadim\documents\visual studio 2015\Projects\IceCreamShop\WebUI\bin\Ninject.Web.Mvc.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\csc.exe
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\vbc.exe
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\WebUI.dll.config
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\WebUI.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\WebUI.pdb
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Domain.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\EntityFramework.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Ninject.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Ninject.Web.Common.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Ninject.Web.Mvc.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Owin.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Helpers.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Mvc.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Optimization.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Razor.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.WebPages.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\WebActivatorEx.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\WebGrease.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Domain.pdb
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Ninject.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Ninject.Web.Common.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Ninject.Web.Mvc.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Helpers.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Mvc.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Optimization.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.Razor.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.WebPages.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\EntityFramework.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\EntityFramework.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\obj\Debug\WebUI.dll
+C:\Users\Vadim\Documents\GitHub\IceCreamShop\WebUI\obj\Debug\WebUI.pdb
